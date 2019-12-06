@@ -23,7 +23,7 @@ file
 
 ### Step 1
 
-Log in to the **CentOS7** VM on the first virtual terminal ( `/dev/tty3`) as user `student`. Use `<CTRL>+<CTRL>+<F3>`.
+Log in to the **CentOS7** VM on the third virtual terminal ( `/dev/tty3`) as user `student`. Use `<CTRL>+<ALT>+<F3>`.
 
 
 ### Step 2
@@ -40,7 +40,7 @@ Creating files in /home/student/labfiles...
 Files created in /home/student/labfiles
 ```
 
-Display files in current directory
+Display all the files in the  `~/labfiles/` directory sorted by size
 
 ```console
 ls -AlhS /home/student/labfiles/
@@ -61,11 +61,11 @@ Organize the files as instructed:
 
 Create a subdirectory at `/home/student/labfiles/bigfiles` and MOVE all files **>=2MB** into this directory.
     
-*HINT: Remember ls –S to sort by size and ls –a or ls -A to show hidden files.*
+*HINT: Remember `ls –S` to sort by size and `ls –a` or `ls -A` to show hidden files.*
     
 ```console
-ls -lhSa
 cd ~/labfiles
+ls -lhSa
 mkdir bigfiles
 mv blob[2-4] Stones.jpg bigfiles/
 ```
@@ -267,7 +267,7 @@ su -c "yum -y install man-pages ; mandb"
 
 ### Step 3
 
-Switch to the second virtual terminal ( e.g. /dev/tty2 )another terminal and log in as `student`
+Switch to the another terminal ( e.g. `/dev/tty2` with <CTRL>+<ALT>+<F2> ) and log in as `student`
 
 ### Step 4
 
@@ -296,7 +296,7 @@ Words that begin with `anti` and end with `ism`that are exactly 13 characters lo
 grep '^anti......ism$' /home/student/words
 ```
 
-While this works, it would be better form to use a "bound" as explained in man **regex(7)**. See man **grep(1)** and read "Repetition" for examples(see `man 7 regex`).
+While this works, it would be better form to use a "bound." See man **grep(1)** and read "Repetition" for examples.
 
 Using basic regex symbol set:
 ```console
@@ -312,7 +312,7 @@ grep -E '^anti.{6}ism$' /home/student/words
 egrep '^anti.{6}ism$' /home/student/words
 ```
 
-
+See man **grep(1)** and read "Basic vs Extended Regular Expressions" to see which characters are literals in Basic and special in Extended symbol set.
 Repeat the previous regular expression search used in the previous step and pipe ( `|` ) that output through another regular expression using a character class that will exclude any words containing upper case letters.
 
 

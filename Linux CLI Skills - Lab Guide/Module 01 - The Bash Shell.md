@@ -189,7 +189,7 @@ echo '$SHELL is a variable'
 
 
 ```console
-echo "$shell and $SHELL are two different things!"
+echo "$shell and $SHELL are two different things."
 ```
 
 

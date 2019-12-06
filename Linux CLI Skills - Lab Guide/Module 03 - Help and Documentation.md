@@ -16,7 +16,7 @@ man
 
 ### Step 1
 
-Log in to the **CentOS7 VM** on the first virtual terminal ( `/dev/tty1` )  as `root`.
+Log in to the **CentOS7 VM** on the second virtual terminal ( `/dev/tty2` )  as `root`.
 
 
 ### Step 2
@@ -34,7 +34,7 @@ sosreport --batch
 Use `pinfo` utility to to open the Texinfo documentation index and locate for the `wget` network downloader.
 
 
-*NOTICE: the exact view of Textinfo pages may differ depending on various factors (installed packages, Linux distribution, etc.)*
+*NOTICE: the exact view of Texinfo pages may differ depending on various factors (installed packages, Linux distribution, etc.)*
 
 
 
@@ -122,11 +122,12 @@ Quit the `pinfo` view by pressing the `q` key.
 
 ### Step 7
 
-Find all the manual pages that match the keywords `bash` and `shellgrub`.
+Find all the manual pages that match the keywords `bash`, `shell' and `grub`.
 
 ```console
-man -k grubash
+man -k bash
 man -k shell
+apropos grub
 ```
 
 ### Step 8
