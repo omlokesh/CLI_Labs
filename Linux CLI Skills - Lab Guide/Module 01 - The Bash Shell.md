@@ -1,4 +1,4 @@
-Module 01 - The Bash Shell
+Module 02 - The Bash Shell
 
 
 
