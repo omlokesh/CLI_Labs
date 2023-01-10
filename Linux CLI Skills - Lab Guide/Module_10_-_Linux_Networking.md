@@ -1,4 +1,4 @@
-Module 09 - Linux Networking
+Module 10 - Linux Networking
 
 
 # Exercise 1: Finding Networking Information

@@ -1,4 +1,4 @@
-Module 07 - Managing Services
+Module 08 - Managing Services
 
 
 # Exercise 1: Using the **SysV** Init System to Manage Services

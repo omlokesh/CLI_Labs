@@ -1,4 +1,4 @@
-Module 11 - Software Package Management
+Module 12 - Software Package Management
 
 
 # Exercise 1: Querying Packages

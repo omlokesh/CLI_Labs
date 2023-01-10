@@ -1,4 +1,4 @@
-Module 12 - Storage Devices and File Systems
+Module 13 - Storage Devices and File Systems
 
 
 # Exercise 1: Configuring, Formatting, and Mounting Partitions

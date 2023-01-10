@@ -1,4 +1,4 @@
-Module 08 - Managing Processes
+Module 09 - Managing Processes
 
 
 # Exercise 1: Shell Job Control

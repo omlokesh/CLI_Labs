@@ -1,4 +1,4 @@
-Module 06 - File System Permissions
+Module 07 - File System Permissions
 
 
 # Exercise 1:  Working with Basic User, Group, and Other Permissions

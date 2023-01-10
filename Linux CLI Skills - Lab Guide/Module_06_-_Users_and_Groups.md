@@ -1,4 +1,4 @@
-Module 05 - Users and Groups
+Module 06 - Users and Groups
 
 
 # Exercise 1:  Elevating Privileges and Running Commands as Other Users

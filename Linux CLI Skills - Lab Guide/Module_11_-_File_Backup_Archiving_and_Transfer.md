@@ -1,4 +1,4 @@
-Module 10 - File Backup, Archiving, and Transfer
+Module 11 - File Backup, Archiving, and Transfer
 
 
 # Exercise 1: Using `tar`, `scp`, and `rsync`

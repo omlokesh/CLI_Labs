@@ -1,4 +1,4 @@
-Module 03 - Help and Documentation
+Module 04 - Help and Documentation
 
 
 # Exercise 1: Using documentation resources 

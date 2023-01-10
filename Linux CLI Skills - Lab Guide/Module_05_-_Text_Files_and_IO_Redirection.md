@@ -1,4 +1,4 @@
-Module 04 - Text files and I/O Redirection
+Module 05 - Text files and I/O Redirection
 
 
 # Exercise 1:  Using I/O Redirection

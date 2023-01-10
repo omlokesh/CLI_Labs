@@ -1,4 +1,4 @@
-Module 13 - Introduction to Security Enhanced Linux
+Module 14 - Introduction to Security Enhanced Linux
 
 
 # Exercise 1: View and Changing SELinux Operating Modes
