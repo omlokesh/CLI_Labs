@@ -1,4 +1,4 @@
-Module 02 - Working with Files
+Module 03 - Working with Files
 
 
 # Exercise 1: Managing Files and Directories
