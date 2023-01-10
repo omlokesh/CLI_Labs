@@ -137,7 +137,7 @@ lab-grade-files1
 
 * Repeat the setup script if you want to start over or practice the exercise again.
 
-* Repeat and/or modify any parts of this lab you feel you need to practice or ask your instructor for additional practice exercises. Notify the instructor when you have completed this lab and are ready to proceed.
+* Notify the instructor when you have completed this lab and are ready to proceed.
 
 
 
@@ -218,7 +218,7 @@ mv Star_Quest_3.mp4 'Star Quest 3.mp4'
 
 ### Step 3
 
-Repeat and/or modify any parts of this lab you feel you need to practice or ask your instructor for additional practice exercises. Notify the instructor when you have completed this lab and are ready to proceed.
+Notify the instructor when you have completed this lab and are ready to proceed.
 
 
 
@@ -339,7 +339,7 @@ grep -E '^anti.{6}ism$' /home/student/words | grep -v '[A-Z]'
 
 ### Step 5
 
-Repeat and/or modify any parts of this lab you feel you need to practice or ask your instructor for additional practice exercises.  Notify the instructor when you have completed this lab and are ready to proceed.
+Notify the instructor when you have completed this lab and are ready to proceed.
 
 
 

@@ -85,7 +85,7 @@ rpm -qi grep
 
 ### Step 3
 
-Repeat and/or modify any parts of this lab you feel you need to practice or ask your instructor for additional practice exercises.  Notify the instructor when you have completed this lab and are ready to proceed.
+Notify the instructor when you have completed this lab and are ready to proceed.
 
 
 
@@ -218,7 +218,7 @@ yum -y group install "Basic Web Server"
 
 ### Step 4
 
-Repeat and/or modify any parts of this lab you feel you need to practice or ask your instructor for additional practice exercises.  Notify the instructor when you have completed this lab and are ready to proceed.
+Notify the instructor when you have completed this lab and are ready to proceed.
 
 
 
@@ -305,7 +305,7 @@ rpm -ivh --force http://mirror.centos.org/centos-7/7/os/x86_64/Packages/centos-r
 
 ### Step 4
 
-Repeat and/or modify any parts of this lab you feel you need to practice or ask your instructor for additional practice exercises.  Notify the instructor when you have completed this lab and are ready to proceed.
+Notify the instructor when you have completed this lab and are ready to proceed.
 
 
 

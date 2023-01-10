@@ -124,7 +124,7 @@ ethtool -k eth0
 
 ### Step 5
 
-Repeat and/or modify any parts of this lab you feel you need to practice or ask your instructor for additional practice exercises.  Notify the instructor when you have completed this lab and are ready to proceed.
+Notify the instructor when you have completed this lab and are ready to proceed.
 
 
 
@@ -212,7 +212,7 @@ Testing connectivity to https://linux.dell.com using Firefox.
 
 ### Step 4
 
-Repeat and/or modify any parts of this lab you feel you need to practice or ask your instructor for additional practice exercises.  Notify the instructor when you have completed this lab and are ready to proceed.
+Notify the instructor when you have completed this lab and are ready to proceed.
 
 
 
@@ -313,7 +313,7 @@ firewall-cmd --add-service=http ; firewall-cmd --list-all
 
 ### Step 7
 
-Repeat and/or modify any parts of this lab you feel you need to practice or ask your instructor for additional practice exercises.  Notify the instructor when you have completed this lab and are ready to proceed.
+Notify the instructor when you have completed this lab and are ready to proceed.
 
 
 

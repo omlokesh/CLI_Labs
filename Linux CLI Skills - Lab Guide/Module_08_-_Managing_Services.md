@@ -147,7 +147,7 @@ Verify the symbolic link to start the service has been removed from `/etc/rc.d/r
 
 ### Step 11
 
-Repeat and/or modify any parts of this lab you feel you need to practice or ask your instructor for additional practice exercises.  Notify the instructor when you have completed this lab and are ready to proceed.
+Notify the instructor when you have completed this lab and are ready to proceed.
 
 
 
@@ -345,7 +345,7 @@ ls -l /etc/systemd/system/multi-user.target.wants | grep iscsid
 
 ### Step 16
 
-Repeat and/or modify any parts of this lab you feel you need to practice or ask your instructor for additional practice exercises.  Notify the instructor when you have completed this lab and are ready to proceed.
+Notify the instructor when you have completed this lab and are ready to proceed.
 
 
 

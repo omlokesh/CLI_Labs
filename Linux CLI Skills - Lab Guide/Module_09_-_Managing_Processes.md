@@ -137,7 +137,7 @@ You may choose to bring jobs to the foreground with `fg` and then interrupt them
 
 ### Step 16
 
-Repeat and/or modify any parts of this lab you feel you need to practice or ask your instructor for additional practice exercises.  Notify the instructor when you have completed this lab and are ready to proceed.
+Notify the instructor when you have completed this lab and are ready to proceed.
 
 
 
@@ -323,7 +323,7 @@ Within `top` utility, use the `k` key to kill the `cat` process with the default
 
 ### Step 13
 
-Repeat and/or modify any parts of this lab you feel you need to practice or ask your instructor for additional practice exercises.  Notify the instructor when you have completed this lab and are ready to proceed.
+Notify the instructor when you have completed this lab and are ready to proceed.
 
 
 
