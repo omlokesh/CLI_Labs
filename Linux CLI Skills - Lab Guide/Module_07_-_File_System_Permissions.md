@@ -67,7 +67,7 @@ lab-grade-perms1
 ```console
 cd /tmp/lab/files.student/
 sudo chown tux:users gzipped*
-for i in {661.667}; do sudo chmod -v $i gzipped${i}.txt.gz ; done
+for PERMS in {661..667}; do sudo chmod -v $PERMS gzipped${PERMS}.txt.gz ; done
 sudo chown -v root:student textfile
 ```
 
