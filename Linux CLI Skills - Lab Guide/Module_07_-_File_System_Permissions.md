@@ -175,6 +175,8 @@ As user `root` create `/DevOps` directory
 
 ```console
 mkdir /DevOps
+chown -v tux:DevOps /DevOps
+ls -ld  /DevOps 
 ```
 
 To set above permissions on `/DevOps` directory we can use either octal or symbolic notation.
