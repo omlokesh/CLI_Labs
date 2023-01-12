@@ -89,7 +89,7 @@ Verify which terminal you are logged into by running  **`tty`** (e.g.  ***/dev/p
 
 ### Step 8.
 
-Run **`alias`** again as *student8.
+Run **`alias`** again as *student*.
 
      ***QUESTION:***  Does the *student* user have the same or different aliases than the *root* user?
      ***ANSWER:***  The *student* user has a custom alias called **`trythisalias`** which runs a BASH shell script located at *`/home/student/.CustomizingAliases`* that explains how custom per-user aliases are set.
