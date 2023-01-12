@@ -29,7 +29,7 @@ echo
 
 ### Step 1. 
 
-Log in the **`gnome-terminal`** as user *student*.
+Log into the **`gnome-terminal`** as user *student*.
 Then run **`sudo -i`** to become user *root*.
 
 ### Step 2.
@@ -69,11 +69,10 @@ help jobs
 
 ### Step 5.
 
-Run the command **`pinfo bash`** then use the UP aand DOWN arrow keys to navigate to **Bash Features::**. 
+Run the command **`pinfo bash`** then use the UP and DOWN arrow keys to navigate to **Bash Features::**. 
 Next, select **Aliases::** to read more about how aliases work, how to add and remove them, and which characters cannot be part of a command `alias`. 
     
 To close `pinfo`, type ***`<q>`***.
-
 
     
 ### Step 6.
@@ -102,25 +101,30 @@ Run **`alias`** again as *student8.
      Options change the output of a command, how it operates, or both.
      
 On the terminal logged in as *student* run the command **`date --help`**. 
-Determine which options formats the output of the `date` command to look like each of the following examples:
+Determine which options will format the output of the `date` command to look like each of the following examples:
+
+-----
 1. Display current date/time using RFC 2822 format
 
 ```console
 date -R
 ```
 
+-----
 2. Display current date/time in the form YYYY-MM-DD
 
 ```console
 date +%F
 ```
 
+-----
 3. Display current time in the form HH:MM:SS
 
 ```console
 date +%T
 ```
 
+-----
 4. The time and date +48 hours from now
 
 ```console
