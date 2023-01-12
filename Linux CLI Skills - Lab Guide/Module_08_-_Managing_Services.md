@@ -1,7 +1,7 @@
 Module 08 - Managing Services
 
 
-# Exercise 1: Using the **SystemD** Init System to Manage Services
+# Exercise 1: Using the `systemctl` Command to Manage Services
 
 
 
@@ -10,7 +10,7 @@ Module 08 - Managing Services
 
 ```console
 systemctl
-service
+
 ```
 
 
