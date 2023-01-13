@@ -167,7 +167,7 @@ kill
 
 ### Step 1
 
-Log in to the **CentOS7 VM** on the first and second virtual terminals ( `/dev/tty1` and `/dev/tty2`) as `student`.
+Log in to 2 terminals on the **CentOS7 VM** as `student`.
 
 
 
@@ -202,7 +202,7 @@ ps aux | grep 'cat '
 Alternative solution:
 
 ```console
-pgrep -t tty1 cat
+pgrep  cat
 ```
 
 
@@ -225,7 +225,7 @@ renice -n 10 <PID>
 Alternative solution (if there's only single instance of `cat` running on `tty1`):
 
 ```console
-renice -n 10 -p $(pgrep -t tty1 cat)
+renice -n 10 -p $(pgrep  cat)
 ```
 
 
@@ -282,8 +282,8 @@ kill <PID>
 Alternative solutions:
 
 ```console
-pkill -t tty1 cat
-kill $(pgrep -t tty1 cat)
+pkill  cat
+kill $(pgrep  cat)
 ```
 
 
