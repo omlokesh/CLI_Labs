@@ -179,9 +179,6 @@ Correct the problems with the network configuration settings created by the inex
 
 There are several methods that could be used to fix this issue. Refer to `man nmcli-examples` or `man nmtui` for help.
 
-If you choose to edit the connection configuration file(s) manually, refer to `man 5 nm-setting-ifcfg-rh`.
-
-
 After correcting the configuration and applying the updated settings, test the functionality of your network by opening https://linux.dell.com in Firefox. 
 
 
@@ -190,11 +187,11 @@ Adding connection profile for `eth0` using static IPv4 configuration.
 
 
 ```console
-nmcli connection add type ethernet con-name eth0 ifname eth0 ipv4.method manual ipv4.address 192.168.0.200/24
+nmcli connection add type ethernet con-name eth0 ifname eth0 ipv4.method auto ipv4.address 192.168.0.200/24
 
-nmcli connection modify eth0 connection.autoconnect yes
+nmcli connection modify eth0 ipv4.dns 10.206.1.91
 
-nmcli connection eth0 up
+nmcli connection up eth0 
 
 nmcli connection
 ```
