@@ -29,7 +29,7 @@ echo
 
 ### Step 1. 
 
-Log into the **`gnome-terminal`** as user *student*.
+Log into the **`gnome-terminal`** as user *student* on Workstation VM.
 Then run **`sudo -i`** to become user *root*.
 
 ### Step 2.
