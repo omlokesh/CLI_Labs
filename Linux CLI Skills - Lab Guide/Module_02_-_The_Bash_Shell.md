@@ -83,13 +83,13 @@ Then run **`alias`** to view all the aliases currently set for the *root* user.
 
 ### Step 7.
 
-Open another **`gnome-terminal`** window or tab as *student*.
+Open another **`gnome-terminal`** window or tab as *student* user.
 Verify which terminal you are logged into by running  **`tty`** (e.g.  ***/dev/pts/1*** or similar)
 
 
 ### Step 8.
 
-Run **`alias`** again as *student*.
+Run **`alias`** again as *student* user.
 
 ***QUESTION:***  Does the *student* user have the same or different aliases than the *root* user?
 ***ANSWER:***  The *student* user has a custom alias called **`trythisalias`** which runs a BASH shell script located at *`/home/student/.CustomizingAliases`* that explains how custom per-user aliases are set.
@@ -100,7 +100,7 @@ Run **`alias`** again as *student*.
      Options are the key to mastering commands on the CLI. 
      Options change the output of a command, how it operates, or both.
      
-On the terminal logged in as *student* run the command **`date --help`**. 
+On the terminal logged in as *student* user run the command **`date --help`**. 
 Determine which options will format the output of the `date` command to look like each of the following examples:
 
 -----
